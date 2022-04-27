@@ -1,0 +1,27 @@
+{
+  "Records": [
+    {
+      "awsRegion": "us-east-1",
+      "codecommit": {
+        "references": [
+          {
+            "commit": "c93096974c275ed633728bfa1b07a820b5846c78",
+            "ref": "refs/heads/main"
+          }
+        ]
+      },
+      "customData": null,
+      "eventId": "57b98060-8108-4a87-9717-17f3a73ac409",
+      "eventName": "ReferenceChanges",
+      "eventPartNumber": 1,
+      "eventSource": "aws:codecommit",
+      "eventSourceARN": "arn:aws:codecommit:us-east-1:<ACCOUNT>:codecommit-trigger-sample",
+      "eventTime": "2022-04-18T14:53:30.471+0000",
+      "eventTotalParts": 1,
+      "eventTriggerConfigId": "754e1f1d-eff5-4104-b5ba-e62eeec93b21",
+      "eventTriggerName": "test",
+      "eventVersion": "1.0",
+      "userIdentityARN": "arn:aws:sts::<ACCOUNT>:assumed-role/Admin/<USER>"
+    }
+  ]
+}
